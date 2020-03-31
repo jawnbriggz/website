@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+<!--    <link type="text/css" rel="stylesheet" th:href="@{/css/merch.css}"/>-->
+    <style type="text/css">
+        .item {
+            background-color: green;
+            height: 250px;
+            width: 250px;
+        }
+
+        .item2 {
+            background-color: blue;
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <p>the merch page</p>
+    <div class="item">some shit</div>
+    <div class="item2">some other shit</div>
+    <a th:href="@{/}">main page</a>
+</body>
+</html>
